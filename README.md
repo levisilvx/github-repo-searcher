@@ -24,7 +24,7 @@
     React Icons;
 </p>
 <h1>
-    <a href="google.com.br">
+    <a href="https://github-repo-searcher-a2p4bbzbm-levisilvxs-projects.vercel.app/)https://github-repo-searcher-a2p4bbzbm-levisilvxs-projects.vercel.app/">
         Utilize a aplicação
     </a>
 </h1>
