@@ -22,7 +22,11 @@ export function RepositoryList(){
     <div>
       <ul className="flex flex-wrap justify-center gap-6 items-start p-5 mt-10">
         {repositories.map(repository => {
-          return <ReposotoryItem key={repository.name} repository={repository} />
+          return (
+            <div>
+              <ReposotoryItem key={repository.name} repository={repository} />
+            </div>
+          );
         })}
       </ul>
     </div>

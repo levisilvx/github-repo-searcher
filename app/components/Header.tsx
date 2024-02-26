@@ -6,15 +6,18 @@ export function Header(){
     return (
         <div className="flex justify-between items-center h-24 p-8 bg-zinc-50 drop-shadow-sm">
             <div>
-                <p className="text-3xl font-extrabold text-zinc-800 flex flex-row gap-2 ml-32">
+                <h1 className="text-3xl font-extrabold text-zinc-800 flex flex-row gap-2 ml-32">
                     <FaGithub className="mt-0.5"/>
                     Github Repo Searcher
-                </p>
+                </h1>
             </div>
-            <div className="flex items-center">
-                <input className="h-8 rounded-md p-5 shadow-md -ml-52" type="text" size={35} placeholder="Digite o nome de um usuário"/>
-                <div className="-m-8 text-zinc-400">
-                    <IoMdSearch size={20}/>
+            <div>
+                <h2 className="text-xl font-semibold text-zinc-500 ml-10">  
+                Mostrando resultados para a busca: Rocketseat
+                </h2>
+            </div>
+            <div className="flex flex-row items-center">
+                <div className="-ml-10 ">
                 </div>
             </div>
             <div className="flex flex-col items-start ml-4">
